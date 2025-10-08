@@ -1,0 +1,187 @@
+:root {
+  --bg-gradient: linear-gradient(135deg, #1b1f2b, #121418);
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --border-glow: rgba(255, 255, 255, 0.2);
+  --accent: #8de3ff;
+  --text: #ffffff;
+  --hover: #a5f1ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 30px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-glow);
+  border-radius: 20px;
+  padding: 25px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: scale(1.015);
+}
+
+header {
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+header h1 {
+  font-size: 2.6rem;
+  color: var(--accent);
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: var(--accent);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.link-list li a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.link-list li a:hover {
+  color: var(--hover);
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.tag-list li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--accent);
+  color: #1a1b20;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover);
+}
+
+@media (max-width: 600px) {
+  .glass-card {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
