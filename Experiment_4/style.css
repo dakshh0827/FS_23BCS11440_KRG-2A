@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    background-color: rgb(180, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin-top: 100px;
+    margin-left: 755px;
+    width: 356px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.897);
+    border: 2px black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#result {
+    margin: 0px;
+    text-align: right;
+    width: 356px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.897);
+    font-size: 3.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+#button_container {
+    margin: 0px;
+    font-size: 1.3em;
+    text-indent: 10px;
+}
+
+button {
+    font-size: 2em;
+    border: none;
+    background-color: rgba(77, 76, 76, 0.479);
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(122, 122, 122, 0.479);
+}
+
+button:active {
+    background-color: rgba(71, 71, 71, 0.726);
+}
+
+#up {
+    background-color: rgba(95, 95, 95, 0.87);
+}
+
+#up:hover {
+    background-color: rgba(146, 144, 144, 0.87);
+}
+
+#up:active {
+    background-color: rgba(82, 81, 81, 0.87);
+}
+
+#op {
+    background-color: #d38a4e;
+}
+
+#op:hover {
+    background-color: #d3a885;
+}
+
+#op:active {
+    background-color: #ce7f3e;
+}

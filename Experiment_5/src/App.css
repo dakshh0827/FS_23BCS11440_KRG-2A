@@ -1,0 +1,33 @@
+/* Center everything */
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading style */
+.title {
+  color: #4a4a4a;
+  font-size: 2.5rem;
+}
+
+/* Paragraph style */
+.info {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
