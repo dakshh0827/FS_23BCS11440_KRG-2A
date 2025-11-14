@@ -1,6 +1,0 @@
-com\parking\booking\controller\BookingController.class
-com\parking\booking\client\QRClient.class
-com\parking\booking\client\SlotClient.class
-com\parking\booking\repository\BookingRepository.class
-com\parking\booking\BookingServiceApplication.class
-com\parking\booking\model\Booking.class

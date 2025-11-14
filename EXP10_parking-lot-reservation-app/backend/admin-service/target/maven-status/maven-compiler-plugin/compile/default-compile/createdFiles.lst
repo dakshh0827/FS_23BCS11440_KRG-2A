@@ -1,5 +1,0 @@
-com\parking\admin\controller\AdminController.class
-com\parking\admin\client\BookingClient.class
-com\parking\admin\AdminServiceApplication.class
-com\parking\admin\service\AdminService.class
-com\parking\admin\client\SlotClient.class

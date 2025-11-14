@@ -1,5 +1,0 @@
-com\parking\slot\controller\SlotController.class
-com\parking\slot\model\Slot.class
-com\parking\slot\SlotServiceApplication.class
-com\parking\slot\repository\SlotRepository.class
-com\parking\slot\service\SlotService.class
