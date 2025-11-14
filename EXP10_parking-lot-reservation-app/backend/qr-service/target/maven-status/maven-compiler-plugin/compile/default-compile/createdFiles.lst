@@ -1,0 +1,5 @@
+com\parking\qr\QRServiceApplication.class
+com\parking\qr\repository\QRRepository.class
+com\parking\qr\model\QRCode.class
+com\parking\qr\controller\QRController.class
+com\parking\qr\service\QRService.class
